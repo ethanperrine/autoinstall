@@ -9,14 +9,13 @@ His was in python 2.7, i just updated his code to be compatable with the latest 
 # How to use?
 copy the autoinstall.py to your project file and import it as it follows. 
 
-```
+```py
 from autoinstall import pip_install_module
 
 try:
   import module_name
 except:
   pip_install_module("module_name")
-  
 ```
 
 credits to original creator:
